@@ -181,10 +181,12 @@ header{
     margin: 4px 0 10px;
     color: var(--text-color);
 }
+.box i{
+    color: var(--text-color);
+}
 .box span{
     font-size: var(--p-font);
     font-weight: 500;
-
 }
 .setloginback{
     position: relative;
