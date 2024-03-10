@@ -373,4 +373,7 @@ header{
     .home-text {
       padding-top: 4rem;
     }
+    .home{
+        height: 120vh;
+    }
   }
