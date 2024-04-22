@@ -21,6 +21,6 @@ sr.reveal(`.home-text, .home-img,
             .about-img, .about-text,
             .box, .s-box,
             .btn, .connect-text,
-            .contact-box`, {
+            .contact-box, .footer-box`, {
     interval: 200
 })
