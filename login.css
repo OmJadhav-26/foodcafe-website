@@ -127,6 +127,22 @@ form p a{
     background: #eaeaea;
     color: #555;
 }
+
+.pass{
+    padding-bottom: 5px;
+}
+
+.submit{
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    background-color: #ffb411;
+    border-radius: 3px;
+}
+
+
 @media (max-width: 450px) {
     .form-box{
         width: 90%;
