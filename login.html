@@ -3,57 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signin to Delicious</title>
-    <link rel="stylesheet" href="login.css">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELICIOUS</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-<link rel="stylesheet" type="text/css"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="form-box">
-            <h1 id="title">Sign Up</h1>
-            <form>
-                <div class="input-group">
-                    <div class="input-field" id="namefield">
-                        <i class='bx bx-user'></i>
-                        <input type="text" placeholder="Name" required>                      
-                    </div>
-        
-                    <div class="input-field">
-                        <i class='bx bx-envelope'></i>
-                        <input type="email" placeholder="Email" required>    
-                    </div>
-                
-                    <div class="input-field">
-                        <i class='bx bx-lock'></i>
-                        <input type="password" placeholder="Password" required>                        
-                    </div>
-                        <p class="pass">Lost Password <a href="#">Click Here!</a></p>
-                        <input type="submit" value="Submit" class="submit">  
-                </div>
-                <div class="btn-field">
-                    <button type="button" id="signupBtn">Sign Up </button>
-                    <button type="button" id="signinBtn" class="disable">Login </button>
-                </div>
-            </form>
-            <a href="index.html">
-                <div class='setloginback'>
-                    <span style=" font-size: 40px; cursor: pointer;"
-                        class="material-symbols-outlined">arrow_circle_up </span>
-                </div>
-            </a>
+    <header>
+        <a href="#" class="logo"><h2>DELOCIOUS</h2></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#connect">Connect</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="login.html"><i class='bx bx-user'></i></a></li>
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Food Taste</h1>
+            <h2>The tasty food of <br>your choice</h2>
+            <a href="#menu" class="btn">View Menu</a>
         </div>
-    </div>
+        <div class="home-img">
+            <img src="images/home-img1.jpg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about-img.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <span><b>About Us</b></span>
+            <h2>We make good & <br>tasty Food.</h2>
+            <p>Best food made by best Chiefs.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span><h2>Menu</h2></span>
+            <h2>Best food of all time.</h2>
+        </div>
+        <div class="menu-container">
+            <div class="box">
+                <a href="#">
+                <div class="box-img">
+                    <img src="images/shwarma-img.jpg" alt="">
+                </div>
+                <h2>Chicken Shwarma</h2>
+                <h3>Middle Eastern Food</h3>
+                <span class="price">75.00₹</span>
+                <i class='bx bx-cart-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                <div class="box-img">
+                    <img src="images/burger-img.jpg" alt="">
+                </div>
+                <h2>Tikki Burger</h2>
+                <h3>India's most loved</h3>
+                <span class="price">55.00₹</span>
+                <i class='bx bx-cart-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                <div class="box-img">
+                    <img src="images/fries-img.jpg" alt="">
+                </div>
+                <h2>Fries</h2>
+                <h3>Crispy Snacks</h3>
+                <span class="price">60.00₹</span>
+                <i class='bx bx-cart-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                <div class="box-img">
+                    <img src="images/coffee-img.jpg" alt="">
+                </div>
+                <h2>Starbucks</h2>
+                <h3>American Coffee</h3>
+                <span class="price">350.00₹</span>
+                <i class='bx bx-cart-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                <div class="box-img">
+                    <img src="images/drinks-img.jpg" alt="">
+                </div>
+                <h2>Drinks</h2>
+                <h3>Speciall Drinks</h3>
+                <span class="price">145.50₹</span>
+                <i class='bx bx-cart-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                <div class="box-img">
+                    <img src="images/hotdog-img.jpg" alt="">
+                </div>
+                <h2>Hotdogs</h2>
+                <h3>Perfectly Grilled</h3>
+                <span class="price">110.00₹</span>
+                <i class='bx bx-cart-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <a href="#">
+                <div class="box-img">
+                    <img src="images/pizza-img.jpg" alt="">
+                </div>
+                <h2>Pizza</h2>
+                <h3>Loaded with Chease</h3>
+                <span class="price">130.00₹</span>
+                <i class='bx bx-cart-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <h1>Explore More</h1>
+                <div class='setloginback'>
+                    <span style=" font-size: 50px; cursor: pointer;"
+                    class="material-symbols-outlined">arrow_circle_up </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="connect" id="connect">
+        <div class="connect-text">
+            <span>Let's Talk</span>
+            <h2>Connect now</h2>
+        </div>
+        <a href="#" class="btn">Contact Us</a>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <span><h2>Services</h2></span>
+            <h2>We provide best food services</h2>
+        </div>
+ 
+        <div class="servives-container">
+            <div class="s-box">
+                <img src="images/order.png" alt="">
+                <h3>You Order</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+            </div>
+            <div class="s-box">
+                <img src="images/delivery-truck.png" alt="">
+                <h3>Shipping</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+            </div>
+            <div class="s-box">
+                <img src="images/shipping.png" alt="">
+                <h3>Delivered</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea fugiat esse tempore ipsum temporibus.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="footer">
+            <div class="footer-box">
+                <h3>Delicious</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, natus. </p>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/_omjadhav__/" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Menu Links</h3>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Services</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>View Guides</h3>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Our Branches</a></li>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <div class="contacts">
+                    <span><i class='bx bxs-map' ></i>Thane(W),Dombivli(W).</span>
+                    <span><i class='bx bxs-phone' ></i>+91 727 663 5255</span>
+                    <span><i class='bx bxs-envelope' ></i>Delicious@gmail.com</span>
+                </div>
+            </div>
+        </section>
+    </footer>
     
-
-
-    <script src="login.js"></script>
+    <div class="copyright">
+        <p>&#169; All Rights Reserved By SODA.</p>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
 </body>
 </html>
