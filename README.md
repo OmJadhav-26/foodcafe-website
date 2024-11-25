@@ -12,4 +12,3 @@ Contact: Easily get in touch with the cafe via a contact form or provided contac
 
 Responsive Design: The website is optimized for various devices, ensuring a seamless experience across desktop, tablet, and mobile.
 
-A live demo of the website can be found at https://delicious-eta.vercel.app
